@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+    <widget class="QLabel" name="msgLabel">
+     <property name="text">
+      <string>Error: </string>
+     </property>
+     <property name="buddy">
+      <cstring></cstring>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QFormLayout" name="subnetsLayout">
+       <item row="1" column="0">
+        <widget class="QLabel" name="iDLabel">
+         <property name="text">
+          <string>ID</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="iDLineEdit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="nameLabel">
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="nameLineEdit"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="descriptionLabel">
+         <property name="text">
+          <string>Description</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="descriptionLineEdit"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="iPRangeLabel">
+         <property name="text">
+          <string>IP Range</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="iPRangeLineEdit"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Enter Subnet</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="subnetsLabel">
+         <property name="text">
+          <string>Subnets</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="nodesLayout">
+       <item row="1" column="0">
+        <widget class="QLabel" name="nameLabel_2">
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="nameLineEdit_2"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelLabel">
+         <property name="text">
+          <string>Label</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="labelLineEdit"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="descriptionLabel_2">
+         <property name="text">
+          <string>Description</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="descriptionLineEdit_2"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="vulnerabilitiesCVELabel">
+         <property name="text">
+          <string>Vulnerabilities (CVE)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="vulnerabilitiesCVELineEdit"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Add Vulnerability</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>Add Node</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="nodesLabel">
+         <property name="text">
+          <string>Nodes</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="reachLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="reachLabel">
+         <property name="text">
+          <string>Reachbality</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="defaultPolicyLabel">
+         <property name="text">
+          <string>Default Policy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="defaultPolicyLineEdit"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="text">
+          <string>Set Policy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="sourceLabel_2">
+         <property name="text">
+          <string>Source</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="sourceComboBox"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="destinationLabel">
+         <property name="text">
+          <string>Destination</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="destinationComboBox"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="portLabel">
+         <property name="text">
+          <string>Port</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="portLineEdit"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="text">
+          <string>Add Rule</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="rateLayout">
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="rateLineEdit"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="rateLabel">
+       <property name="text">
+        <string>Rate</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="text">
+      <string>Finish</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

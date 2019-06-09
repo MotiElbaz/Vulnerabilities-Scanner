@@ -1,0 +1,23 @@
+{
+  "urls":[
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2002.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2003.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2004.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2005.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2006.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2007.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2008.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2009.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2010.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2011.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2012.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2013.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2014.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2015.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2016.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2017.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2018.json.zip",
+    "https://static.nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-2019.json.zip",
+    "https://nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-recent.json.zip"
+  ]
+}

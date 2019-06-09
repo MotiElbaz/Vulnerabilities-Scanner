@@ -1,0 +1,1 @@
+{"application_name": "VS", "collection_name": "vuln", "json_folder": "C:\\VS", "download_files": true, "setup_db": true, "mongo_settings": {"ip": "localhost", "port": "27017"}}

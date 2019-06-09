@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="mainLayout">
+     <item>
+      <layout class="QHBoxLayout" name="fromLayout">
+       <item>
+        <widget class="QLabel" name="targetNodeLabel">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+font: 25 12pt &quot;Open Sans Hebrew Light&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Target Node</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="targetNodeLineEdit">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+font: 25 16pt &quot;Open Sans Hebrew Light&quot;;
+border: 1px solid grey;
+border-radius: 12px;
+padding 0 8px;
+selection-background-color: white;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pathBtn">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+font: 25 14pt &quot;Open Sans Hebrew Light&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Set Node</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="rateAnswerLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+font: 25 12pt &quot;Open Sans Hebrew Light&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Rate is : </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTabWidget" name="imgs">
+       <property name="currentIndex">
+        <number>3</number>
+       </property>
+       <widget class="QWidget" name="short_2">
+        <attribute name="title">
+         <string>Graph</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="graph">
+        <attribute name="title">
+         <string>Shortest Path</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="vulen">
+        <attribute name="title">
+         <string>Vulnerable Path</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="expose">
+        <attribute name="title">
+         <string>Expose Component</string>
+        </attribute>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
